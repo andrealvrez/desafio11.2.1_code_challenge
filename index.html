@@ -9,20 +9,20 @@
 <body>
     <h1>Formulario de registro</h1>
     <form id="formulario">
-        <div id="name">
+        <div>
             <label for="nombre" class="form-label">Nombre:</label>
             <input type="text" class="form-control" id="nombre">
         </div>
-        <div id="lastname">
+        <div>
             <label for="apellido" class="form-label">Apellido:</label>
             <input type="text" class="form-control" id="apellido">
         </div>
-        <div id="dob">
+        <div>
             <label for="fecha" class="form-label">Fecha de nacimiento:</label>
-            <input type="text" class="form-control" id="nacimiento">
+            <input type="date" id="nacimiento" name="FechaDeNacimiento">
         </div>
         <div>
-            <button type>
+            <button type="button" id="enviar">Enviar</button>
         </div>
     </form>
 </body>
